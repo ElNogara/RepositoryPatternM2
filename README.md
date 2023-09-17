@@ -18,6 +18,6 @@ Siga esses passos para instalar o módulo:
 
 ## Utilizando
 Esse módulo cria um novo comando dentro do terminal do Magento 2(bin/magneto), então para utilizar o mesmo basta acessar a raiz da sua loja e digitar o comando:
-bin/magento hibrido:repository:test
+`bin/magento hibrido:repository:test`
 Que ele vai retornar todos os produtos cadastrados na loja.
 
