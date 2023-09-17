@@ -2,9 +2,10 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="testnogara" xsi:type="object">Hibrido\RepositoryTest\Console\Command\Testnogara</item>
+                <item name="listproducts" xsi:type="object">Hibrido\RepositoryPa\Console\Command\ListProducts</item>
+                <item name="listusers" xsi:type="object">Hibrido\RepositoryPa\Console\Command\ListUsers</item>
             </argument>
         </arguments>
     </type>
-    <preference for="Hibrido\RepositoryTest\Api\ProductRepositoryInterface" type="Hibrido\RepositoryTest\Model\ProductRepository" />
+    <preference for="Hibrido\RepositoryPa\Api\HbRepositoryInterface" type="Hibrido\RepositoryPa\Model\HbRepository" />
 </config>
