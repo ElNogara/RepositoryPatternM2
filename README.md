@@ -1,5 +1,5 @@
 # Hibrido/RepositoryPa
-Módulo criado com o objetivo de utilizar o conceito de Repository Pattern no Magento 2 para listar todos os produtos na loja. 
+Módulo criado com o objetivo de utilizar o conceito de Repository Pattern no Magento 2 para listar todos os Produtos/Users Admin  da loja. 
 
 <h3>Repository Pattern</h3>
 
@@ -17,7 +17,7 @@ Siga esses passos para instalar o módulo:
 5. E também: `php bin/magento setup:static-content:deploy -f`
 
 ## Utilizando
-Esse módulo cria um novo comando dentro do terminal do Magento 2(bin/magneto), então para utilizar o mesmo basta acessar a raiz da sua loja e digitar o comando:
-`bin/magento hibrido:repository:test`
-Que ele vai retornar todos os produtos cadastrados na loja.
-
+Esse módulo está configurado para criar dois novos comandos dentro do terminal do Magento 2(bin/magneto). 
+Sendo eles:
+- hibrido:repository:products -> Vai listar todos os produtos cadastrados da plataforma.
+- hibrido:repository:users -> Vai listar todos os usuários cadastros no admin da plataforma.
