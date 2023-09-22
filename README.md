@@ -17,7 +17,7 @@ Siga esses passos para instalar o módulo:
 5. E também: `php bin/magento setup:static-content:deploy -f`
 
 ## Utilizando
-Esse módulo está configurado para criar dois novos comandos dentro do terminal do Magento 2(bin/magneto). 
+Esse módulo está configurado para criar dois novos comandos dentro do terminal do Magento 2(bin/magento). 
 Sendo eles:
 - hibrido:repository:products -> Vai listar todos os produtos cadastrados da plataforma.
 - hibrido:repository:users -> Vai listar todos os usuários cadastros no admin da plataforma.
